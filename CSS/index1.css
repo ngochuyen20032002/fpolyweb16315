@@ -1,0 +1,245 @@
+/*LAB6*/
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.container>header{
+    background-image: url(../IMG/1a.jpg);
+    background-size: 100% 100%;
+    height: 50%;
+    padding-bottom: 50%;
+}
+.container>nav{
+    line-height: 40px;
+    text-align: center;
+    font-variant: small-caps;
+    background-color: orangered;
+    color: white;
+}
+.container>article{
+    min-height: 300px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+.container>aside{
+    width: 25%;
+    float: right;
+    min-height: 400px;
+    background-color: white;
+}
+.container>footer{
+    border-top: 5px double orange;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+.container>nav>a{
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}
+.container>nav>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+iframe[name-page]{
+    width: 100%;
+    min-width: 500px;
+}
+/*LAB7*/
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a{
+    background: url('../IMG/Mặt\ trời\ Gif.gif') no-repeat left center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover{
+    background: url('../IMG/mten.png') no-repeat left center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+.col-25{
+    width: 25%;
+    float: left;
+}
+.prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.prod>.name{
+    font-variant: small-caps;
+    color: orangered;
+}
+.prod>.image{
+    max-width: 98%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.prod>.price{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: orange;
+}
+.prod>.icons{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 25px;
+}
+.prod>.new-icon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 25px;
+}
+.prod.icons>image{
+    width: 25px;
+}
+.top-right{
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    border-bottom-left-radius: 30px;
+    background-color: orangered;
+    box-shadow: 3px 3px 2px orangered;
+    padding:  5px 10px 5px 20px;  
+    height: 30px;  
+}
+.top-right a{
+    text-decoration: none;
+    color: white;
+}
+.company-info{
+    bottom: 30px;
+    top: 420px;
+    left: 30px;
+    text-shadow: 0 0 0px white;
+    font-variant: small-caps;
+    height: 50px;
+    position: relative;
+    padding: 0 20px;
+    font-size: 15.8px;
+    margin: 5px;
+}
+.company-info>h1{
+    color: red;
+    border-bottom: 3px dotted red;
+    width: 300px;
+    padding: 0px;
+    margin: 0px;
+}
+.company-info>h3{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    letter-spacing: 1.4px;
+}
+.prod>.icons>img{
+    width: 25px;
+}
+.prod>.new-icon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 30px;
+}
+.body{
+    float: left;
+}
+/*LAB8*/
+.menu>ul>li{
+    display: inline-block;
+    z-index: 1;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.menu>ul>ul>a:hover{
+    color: yellow;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: 0 0 1px gray;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+    z-index: 1;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+/*LAB12*/
+#amenu{
+    margin: 0 auto;
+    width: 750px;
+}
+#article{
+    width: 100%;
+    height: 356px;
+    float: left;
+}
+#image img{
+    width: 25%;
+    padding: 10px;
+    float: right;
+}
+
+
+

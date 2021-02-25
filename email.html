@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LAB12</title>
+        <meta charset="utf-8" />
+        <link href="CSS/form.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="company-info">
+                    <h1>FPT POLYTECHNIC</h1>
+                    <h3>THỰC HỌC - THỰC NGHIỆM</h3>
+                </div>
+                <div class="top-right">
+                    <a href="dangnhap.html">Đăng nhập</a> 
+                    <a href="dangky.html">Đăng ký</a> 
+                    <a href="#3">Quên mật khẩu</a>
+                </div>
+            </header>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li> |
+                    <li><a href="trandau.html">Giới thiệu</a></li> |
+                    <li>
+                        <a href="#">Liên hệ</a>
+                        <ul>
+                            <li><a href="mobile.html">Mobile</a></li>
+                            <li><a href="email.html">Email</a></li>
+                        </ul>
+                    </li> |
+                    <li><a href="tigia.html">Góp ý</a></li> |
+                    <li><a href="#">Hỏi đáp</a></li> |
+                    <li><a href="tintuc.html">Tin tức</a></li>
+            </nav>
+    <body>
+        <section>
+            <main>
+                <h1>EMAIL</h1>
+                <form>
+                    <div class="form-group">
+                         <label>Họ và tên:</label>
+                         <input tabindex="1" type="text" name="Họ và tên" class="form-control"/>
+                    </div>
+                    <fieldset>
+                        <legend>Giới tính:</legend>
+                        <strong><label><input type="radio" name="gender" checked/> Nam</label></strong>
+                        <strong><label><input type="radio" name="gender"/> Nữ</label></strong>
+                     </fieldset>
+                     <div class="form-group">
+                        <label>Ngày sinh:</label>
+                        <input tabindex="2" type="date" class="form-control"/>
+                      </div>
+                     <div class="form-group">
+                        <label>Điểm:</label>
+                        <input tabindex="3" type="number" min="0" max="10" step="0.25" class="form-control"/>
+                     </div>
+                     <div class="form-group">
+                        <label>Nghề nghiệp:</label><br/>
+                        <input tabindex="4" list="browsers">
+                        <datalist id="browsers">
+                           <option value="Giáo viên">
+                            <option value="CB Hành chính">
+                           <option value="CB Tuyển sinh">
+                           <option value="CB Đào tạo">
+                           <option value="CB CTSV"></option>
+                        </datalist>
+                     </div>
+                      <fieldset>
+                        <legend>Sở thích:</legend>
+                        <strong><label><input type="checkbox"/>Thể thao</label>
+                        <label><input type="checkbox"/>Du lịch</label>
+                        <label><input type="checkbox"/>Âm nhạc</label>
+                        <label><input type="checkbox"/>Ẩm thực</label></strong>
+                     </fieldset>
+                      <div class="form-group">
+                          <label>Ghi chú:</label><br/>
+                          <textarea tabindex="5" rows="5" cols="40" class="from-control"></textarea><br/>
+                      </div>
+                      <hr/>
+                    <div class="form-group">
+                          <button tabindex="7" class="form-button">Đăng kí</button>
+                          <button tabindex="6" class="form-button">Nhập lại</button>
+                      </div>
+            </main>
+            <aside>
+                <ul class="vmenu">
+                    <li><a href="#">Máy tính xách tay</a></li>
+                    <li><a href="#">Điện thoại di động</a></li>
+                    <li><a href="#">Máy quay phim</a></li>
+                    <li><a href="#">Máy chụp ảnh</a></li>
+                </ul>
+            </aside>
+            </section>
+                <footer>FPT POLYTECHNICH @ 2017. ALL RIGHTS RESERVED</footer>
+    </body>
+</HTML>

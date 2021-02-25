@@ -1,0 +1,27 @@
+#hmenu{
+    margin: 0 auto;
+    width: 1000px;
+}
+.bantin{
+    width: 100%;
+    background-color:wheat;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image img{
+    width: 20%;
+    float: left;
+}
+.bantin_1{
+    width: 80%;
+    float: right;
+}
+.congnghe a{
+    text-decoration: none;
+    font-size: larger;
+    color: blue;
+    font-variant: small-caps;
+}
+.congnghe a:hover{
+    color: crimson;
+}
